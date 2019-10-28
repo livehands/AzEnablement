@@ -31,7 +31,7 @@ namespace AzSelfService.Controllers
         [HttpPost]
         [ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> CreateAsync([Bind("Id,SubscriptionName,SubscriptionType,CostId,DescriptionId")] SubRequestViewModel item)
+        public async Task<ActionResult> CreateAsync([Bind("Id,SubscriptionName,SubscriptionType,CostId,DepartmentId")] SubRequestViewModel item)
         {
             if (ModelState.IsValid)
             {

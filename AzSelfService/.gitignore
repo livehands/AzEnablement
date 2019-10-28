@@ -21,3 +21,5 @@ bld/
 wwwroot/
 
 .vs/
+
+appsettings.json
